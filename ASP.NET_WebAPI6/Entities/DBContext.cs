@@ -19,7 +19,7 @@ namespace ASP.NET_WebAPI6.Entities
         {
             if (!optionsBuilder.IsConfigured)
             {
-                optionsBuilder.UseMySQL("server=localhost;port=3306;user=root;password=;database=demo");
+                optionsBuilder.UseMySQL("server=localhost;port=3306;user=root;password=my-secret-pw;database=demo");
             }
         }
 
